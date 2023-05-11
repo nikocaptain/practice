@@ -29,7 +29,7 @@ public class C05_MethodCreation {
       sayi1=sayi2;
       sayi2=sayi3;
         System.out.println("swaptan sonra  :  "+sayi1);
-        System.out.println("swaptan sonra  :  "+sayi2);
+        System.out.println("swaptan sonra  :  "+sayi2);//
 
     }
 }
