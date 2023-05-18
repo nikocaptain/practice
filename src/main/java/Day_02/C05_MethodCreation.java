@@ -17,8 +17,26 @@ public class C05_MethodCreation {
         System.out.println("swaptan önce  :  "+sayi2);
        swaplaYazdir(sayi1,sayi2);
 
+       //Verilen sayi1 ve sayi2 variable'larinin degerlerini degistiren (SWAP)
+        //        bir program yaziniz
+
+        int x=15;
+        int y=20;
+        System.out.println("swaptan önce x : "+x);
+        System.out.println("swaptan önce y : "+y);
+        tekrar(x,y);
 
 
+
+    }
+
+    private static void tekrar(int x, int y) {
+        int z;
+        z=x;
+        x=y;
+        y=z;
+        System.out.println("swaptan sonra : "+x);
+        System.out.println("swaptan sonra  .  "+y);
     }
 
 
